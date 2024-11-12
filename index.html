@@ -12,8 +12,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <title>Resturant</title>
@@ -219,12 +221,55 @@
               <input type="date" placeholder="Reservation Date" />
               <input type="number" placeholder="Total People" />
             </div>
-            <input type="text" placeholder="Message" />
+            <textarea
+              type="text"
+              placeholder="Message"
+              class="message__box"
+            ></textarea>
           </div>
-          <button class="book__now">Book Now</button>
+          <button class="book__now-btn">Book Now</button>
         </div>
       </div>
     </section>
     <!-- Contact Section End -->
+
+    <!-- Customer Section Start -->
+    <section class="customer">
+      <div class="customer__inner">
+        <div class="cutomer__inner-content">
+          <div class="customer__inner-content--header">
+            <span></span>
+            <p class="taste">crispy, every bite taste</p>
+          </div>
+          <h2 class="customer__content_heading">
+            What some of my customers say
+          </h2>
+        </div>
+
+        <div class="customer__content--box">
+          <div class="customer__inner-content--box">
+            <p class="customer__desc">
+              <i class="fa-solid fa-quote-left"></i> You can't go wrong with
+              chicken Mandi, I had it twice. The chicken was cooked perfectly,
+              juicy & soft (usually mandi chicken is a bit dry). I would
+              defiantly recommend it.
+            </p>
+            <div class="customer__details">
+              <div class="customer__inner-details">
+                <h4 class="customer__name">Khalid al dawsry</h4>
+                <p class="customer__address">jeddah, saudi</p>
+              </div>
+              <div class="customer__img">
+                <img src="Images/Image (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="food__video-part">
+            <img src="Images/Video.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Customer Section End -->
   </body>
 </html>
